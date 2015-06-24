@@ -9,3 +9,9 @@ A2. Working directory is the directory on which we are currently working on and 
 	directory at different points in time. Staging area is in intermediate stage which Git provides where files have to be
 	added before they can be commited. If one adds a file which he did not intended to commit he can reset that, this provides
 	more flexibility.
+
+Q3. How can you use the staging area to make sure you have one commit per logical change?
+
+A3. To check that we have only one commit per logical change we can use git diff --staged to check the difference between the
+	staging area and the most recent commit. If there are more than one logical change per commit we can always discard that
+	change and add it another commit.
