@@ -7,3 +7,14 @@ Q2. Why might you want to always pull changes manually rather than having Git au
 A2. When working in a group I would not want my work to be automatically overridden by ohters working on the same project without my
 	knowledge, so I would always want to pull changes manually rather than having Git automatically stay up-tp-date with my remote
 	repositories, this would keep me safe from unwanted changes.
+
+Q3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A3. Fork - A fork is a copy of a repository which github makes on from one person's guthub account to another person's github account.
+	Clone - A clone is a copy of a repository which is made by git from a github account or a local machine to another local machine.
+	Branch - A branch is a set of commits. By default there is only 1 branch that is 'master' but other branches can be made. A branch
+			 is generally made when developer wants to do some experimental changes while keeping the original version intact.
+
+	Fork should be used when a person wants to contribute to someone elses repository but does not have the permission to make changes.
+	Clone should be used when a person wants to work on a repository on his own machine.
+	Branch should be used when a person wants to carry out some experimental change in the code.
