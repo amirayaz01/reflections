@@ -18,3 +18,7 @@ A3. Fork - A fork is a copy of a repository which github makes on from one perso
 	Fork should be used when a person wants to contribute to someone elses repository but does not have the permission to make changes.
 	Clone should be used when a person wants to work on a repository on his own machine.
 	Branch should be used when a person wants to carry out some experimental change in the code.
+
+Q4. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A4. To avoid merge conflicts so that merging can be fast forward.
