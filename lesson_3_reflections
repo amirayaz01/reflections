@@ -27,4 +27,15 @@ Q5. How would you collaborate without using Git or GitHub? What would be easier,
 
 A5. To collaborate without using git or github I would contantly send my project's package to my collaborators via e-mail and also
 	update any changes done by my collaborators. No, it would not be easier. Constant copying and pasting the code after every bit of change
-	would be harder. 
+	would be harder.
+
+Q6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+A6. I would want to make changes in a separate branch rather than on master branch directly when I am collaborating with others so
+	that they can also make their own changes and my changes are not imposed on them. 
+
+	The benifit of making changes on a different branch is that if the other collaborator does not like that change then he can always
+	ask not to include that in the final version and also that if the new change causes some damage, the original version remains unaffected.
+
+	The benifit of making changes directly on master is that it saves time, also when making changes in a different branch and then merging them
+	is a complex task. 
