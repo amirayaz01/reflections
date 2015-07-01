@@ -22,3 +22,9 @@ A3. Fork - A fork is a copy of a repository which github makes on from one perso
 Q4. What is the benefit of having a copy of the last known state of the remote stored locally?
 
 A4. To avoid merge conflicts so that merging can be fast forward.
+
+Q5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A5. To collaborate without using git or github I would contantly send my project's package to my collaborators via e-mail and also
+	update any changes done by my collaborators. No, it would not be easier. Constant copying and pasting the code after every bit of change
+	would be harder. 
